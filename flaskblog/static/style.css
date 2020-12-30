@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  max-width: 300px;
+  max-width: 960px;
   margin: 0 auto;
   background: white;
 }
@@ -117,6 +117,8 @@ nav ul li a, nav ul li span, header .action {
 
 .content input, .content textarea {
   margin-bottom: 1em;
+  min-height: 2em;
+  max-width: 15em;
 }
 
 .content textarea {
@@ -131,4 +133,6 @@ input.danger {
 input[type=submit] {
   align-self: start;
   min-width: 10em;
+  min-height: 3em;
+  margin-top: 2em;
 }
